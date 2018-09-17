@@ -385,3 +385,23 @@ LogInit: Object subsystem initialized
 [2018.09.17-11.34.16:196][574]SourceControl: [master a199012] Testing updating Unreal Git
 [2018.09.17-11.34.16:196][574]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2018.09.17-11.34.16:207][574]SourceControl: Commited [master a199012] Testing updating Unreal Git.
+[2018.09.17-11.37.21:745][ 72]Cmd: TRANSACTION UNDO
+[2018.09.17-11.37.21:745][ 72]LogEditorTransaction: Undo Move Actors
+[2018.09.17-11.37.28:085][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.31:432][831]Cmd: DUPLICATE
+[2018.09.17-11.37.31:432][831]Cmd: ACTOR DUPLICATE
+[2018.09.17-11.37.36:208][336]Cmd: DUPLICATE
+[2018.09.17-11.37.36:208][336]Cmd: ACTOR DUPLICATE
+[2018.09.17-11.37.43:630][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.43:792][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.44:112][139]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap83F57DB840B321318350FA913F929383.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.09.17-11.37.45:968][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.49:267][457]SourceControl: fatal: Q:/K/UE_4.20/Engine/Content: 'Q:/K/UE_4.20/Engine/Content' is outside repository
+[2018.09.17-11.37.49:445][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.57:653][457]LogSlate: Window 'Submit Files' being destroyed
+[2018.09.17-11.37.57:666][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.57:839][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-11.37.58:930][457]LogSourceControl: commit successful: [master 507c557] Testing 123
+[2018.09.17-11.37.59:077][457]SourceControl: [master 507c557] Testing 123
+[2018.09.17-11.37.59:077][457]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.09.17-11.37.59:088][457]SourceControl: Commited [master 507c557] Testing 123.
