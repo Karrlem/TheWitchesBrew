@@ -1,4 +1,4 @@
-﻿Log file open, 10/18/18 10:16:16
+﻿Log file open, 10/22/18 08:19:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TheWitchsBrew
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.595011
+LogStats: Stats thread started at 0.882719
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.319s to configure plugins.
+LogStreaming: Display: Took  0.282s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: Q:/K/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -145,635 +145,394 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.005s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.18-14.16.18:423][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.18-14.16.18:423][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.18-14.16.18:471][  0]LogHAL: Display: Platform has ~ 32 GB [34262687744 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.18-14.16.18:472][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.18-14.16.18:472][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.18-14.16.18:484][  0]LogInit: Computer: A-C613-W06
-[2018.10.18-14.16.18:485][  0]LogInit: User: karrlemlewis
-[2018.10.18-14.16.18:485][  0]LogInit: CPU Page size=4096, Cores=16
-[2018.10.18-14.16.18:485][  0]LogInit: High frequency timer resolution =2.533232 MHz
-[2018.10.18-14.16.18:485][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.10.18-14.16.18:485][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.18-14.16.18:485][  0]LogMemory: Process Physical Memory: 118.18 MB used, 118.18 MB peak
-[2018.10.18-14.16.18:486][  0]LogMemory: Process Virtual Memory: 107.32 MB used, 107.32 MB peak
-[2018.10.18-14.16.18:486][  0]LogMemory: Physical Memory: 9369.79 MB used,  23305.66 MB free, 32675.45 MB total
-[2018.10.18-14.16.18:486][  0]LogMemory: Virtual Memory: 588.26 MB used,  23305.66 MB free, 8388608.00 MB total
-[2018.10.18-14.16.18:989][  0]LogInit: Using OS detected language (en-US).
-[2018.10.18-14.16.18:989][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.18-14.16.18:990][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.18-14.16.19:731][  0]LogStreaming: Display: Took  0.742s to InitEngineTextLocalization.
-[2018.10.18-14.16.19:732][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.10.18-14.16.19:732][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.10.18-14.16.19:732][  0]LogInit: Setting process to DPI aware
-[2018.10.18-14.16.19:898][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.18-14.16.19:898][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.18-14.16.20:623][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.18-14.16.20:623][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.18-14.16.20:677][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
-[2018.10.18-14.16.20:677][  0]LogD3D11RHI:       4034/0/16081 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.18-14.16.20:677][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.18-14.16.20:696][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.18-14.16.20:696][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
-[2018.10.18-14.16.20:696][  0]LogWindows: EnumDisplayDevices:
-[2018.10.18-14.16.20:696][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
-[2018.10.18-14.16.20:696][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
-[2018.10.18-14.16.20:697][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
-[2018.10.18-14.16.20:697][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
-[2018.10.18-14.16.20:697][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.10.18-14.16.20:698][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.10.18-14.16.20:698][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.10.18-14.16.20:698][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.18-14.16.20:698][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
-[2018.10.18-14.16.20:698][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
-[2018.10.18-14.16.20:698][  0]LogD3D11RHI:      Driver Date: 9-16-2017
-[2018.10.18-14.16.20:698][  0]LogRHI: Texture pool is 2824 MB (70% of 4034 MB)
-[2018.10.18-14.16.20:725][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.18-14.16.20:781][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.18-14.16.20:795][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Intermediate/Shaders/WorkingDirectory/9264/).
-[2018.10.18-14.16.20:795][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/karrlem_lewis/AppData/Local/Temp/UnrealShaderWorkingDir/4E0A18B3463DBE7F5D2F0580DEAB7232/'.
-[2018.10.18-14.16.21:988][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.18-14.16.22:035][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.18-14.16.22:076][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.18-14.16.22:112][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.18-14.16.22:156][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.18-14.16.22:208][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.18-14.16.22:259][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.18-14.16.22:300][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.18-14.16.22:320][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.18-14.16.22:496][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.18-14.16.22:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.18-14.16.22:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.18-14.16.22:687][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.18-14.16.22:687][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.18-14.16.22:725][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.18-14.16.22:759][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.18-14.16.22:797][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.18-14.16.22:841][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.18-14.16.22:865][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.18-14.16.22:865][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.18-14.16.23:553][  0]LogXGEController: Cleaning working directory: C:/Users/karrlem_lewis/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.18-14.16.23:553][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.18-14.16.23:554][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.18-14.16.23:554][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.18-14.16.25:573][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.18-14.16.26:085][  0]LogDerivedDataCache: Loaded boot cache 0.51s 71MB C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.18-14.16.26:086][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.18-14.16.26:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.18-14.16.26:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.18-14.16.26:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.18-14.16.26:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.18-14.16.26:145][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.18-14.16.26:158][  0]LogDerivedDataCache: Using Local data cache path C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.18-14.16.26:158][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.18-14.16.26:158][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.18-14.16.26:188][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.18-14.16.26:194][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.18-14.16.26:217][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.18-14.16.26:474][  0]LogAssetRegistry: FAssetRegistry took 0.0345 seconds to start up
-[2018.10.18-14.16.27:315][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.18-14.16.28:115][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.18-14.16.28:173][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.18-14.16.28:173][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.18-14.16.28:173][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.18-14.16.28:173][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.18-14.16.28:404][  0]LogNetVersion: TheWitchsBrew 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2511835505)
-[2018.10.18-14.16.30:255][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.189560 seconds
-[2018.10.18-14.16.30:276][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.18-14.16.30:276][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.10.18-14.16.30:276][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.18-14.16.36:336][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.18-14.16.36:371][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.18-14.16.37:114][  0]SourceControl: Source control is disabled
-[2018.10.18-14.16.40:744][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.18-14.16.41:060][  0]LogOcInput: OculusInput pre-init called
-[2018.10.18-14.16.41:312][  0]LogEngine: Initializing Engine...
-[2018.10.18-14.16.41:329][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.18-14.16.41:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.18-14.16.41:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.18-14.16.41:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.18-14.16.41:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.18-14.16.42:004][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.18-14.16.42:244][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.18-14.16.42:390][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.10.18-14.16.42:494][  0]LogInit: FAudioDevice initialized.
-[2018.10.18-14.16.42:495][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.18-14.16.42:695][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.18-14.16.42:714][  0]LogInit: Texture streaming: Enabled
-[2018.10.18-14.16.42:833][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.18-14.16.42:883][  0]LogInit: Transaction tracking system initialized
-[2018.10.18-14.16.43:015][  0]BlueprintLog: New page: Editor Load
-[2018.10.18-14.16.43:699][  0]LocalizationService: Localization service is disabled
-[2018.10.18-14.16.45:055][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.18-14.16.45:055][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.18-14.16.45:056][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.18-14.16.45:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.18-14.16.45:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.18-14.16.45:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.18-14.16.45:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.18-14.16.45:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/' took 0.02s
-[2018.10.18-14.16.46:098][  0]Cmd: MAP LOAD FILE="C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.18-14.16.46:099][  0]LightingResults: New page: Lighting Build
-[2018.10.18-14.16.46:122][  0]MapCheck: New page: Map Check
-[2018.10.18-14.16.46:122][  0]LightingResults: New page: Lighting Build
-[2018.10.18-14.16.48:015][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.10.18-14.16.48:190][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.18-14.16.48:344][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.18-14.16.48:421][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.068ms to complete.
-[2018.10.18-14.16.48:421][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.323
-[2018.10.18-14.16.48:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.18-14.16.48:585][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.18-14.16.48:606][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.18-14.16.48:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.18-14.16.48:649][  0]LogCollectionManager: Loaded 0 collections in 0.002297 seconds
-[2018.10.18-14.16.48:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Collections/' took 0.01s
-[2018.10.18-14.16.48:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/Developers/karrlemlewis/Collections/' took 0.01s
-[2018.10.18-14.16.48:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/Collections/' took 0.01s
-[2018.10.18-14.16.48:698][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.18-14.16.48:719][  0]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2572 classes and 603 folders.
-[2018.10.18-14.16.48:727][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.10.18-14.16.49:375][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.10.18-14.16.49:416][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.10.18-14.16.49:470][  0]LogSlate: Took 0.012506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.18-14.16.49:481][  0]LogSlate: Took 0.006875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.18-14.16.49:509][  0]LogSlate: Took 0.005236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.18-14.16.49:747][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 10 NumSamples 1 (Frame:1).
-[2018.10.18-14.16.50:159][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.10.18-14.16.50:159][  0]LogLoad: (Engine Initialization) Total time: 38.75 seconds
-[2018.10.18-14.16.50:159][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.18-14.16.50:220][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.18-14.16.50:303][  0]LogSlate: Took 0.011523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.18-14.16.50:601][  4]LogAssetRegistry: Asset discovery search completed in 24.1487 seconds
-[2018.10.18-14.16.50:605][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.10.18-14.16.50:605][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000107 seconds (updated 0 objects)
-[2018.10.18-14.17.21:822][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.24.33:771][848]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.18-14.24.33:796][848]LogAssetTools: Warning: Failed to import 'C:\Users\karrlem_lewis\Desktop\Platform.mb'. Unknown extension 'mb'.
-[2018.10.18-14.25.36:607][234]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\karrlem_lewis\Desktop\Platforms.fbx)
-[2018.10.18-14.25.36:632][234]LogFbx: Loading FBX Scene from C:\Users\karrlem_lewis\Desktop\Platforms.fbx
-[2018.10.18-14.25.36:645][234]LogFbx: FBX Scene Loaded Succesfully
-[2018.10.18-14.25.40:465][234]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.10.18-14.25.40:802][234]LogMaterial: Display: Missing cached shader map for material lambert3, compiling. 
-[2018.10.18-14.25.40:873][234]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.25.40:873][234]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.25.40:873][234]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.25.40:876][234]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
-[2018.10.18-14.25.40:894][234]LogFbx: Warning: Triangulating static mesh pCone1
-[2018.10.18-14.25.40:914][234]LogStaticMesh: Building static mesh Platforms_pCone1...
-[2018.10.18-14.25.40:922][234]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone1.Platforms_pCone1
-[2018.10.18-14.25.40:942][234]LogFbx: Warning: Triangulating static mesh pCone2
-[2018.10.18-14.25.40:961][234]LogStaticMesh: Building static mesh Platforms_pCone2...
-[2018.10.18-14.25.40:966][234]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/Platforms_pCone2.Platforms_pCone2
-[2018.10.18-14.25.40:974][234]LogFbx: Warning: Triangulating static mesh pCone3
-[2018.10.18-14.25.40:993][234]LogStaticMesh: Building static mesh Platforms_pCone3...
-[2018.10.18-14.25.41:002][234]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone3.Platforms_pCone3
-[2018.10.18-14.25.41:015][234]LogFbx: Warning: Triangulating static mesh pCone4
-[2018.10.18-14.25.41:042][234]LogStaticMesh: Building static mesh Platforms_pCone4...
-[2018.10.18-14.25.41:047][234]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone4.Platforms_pCone4
-[2018.10.18-14.25.41:058][234]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.25.41:058][234]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.25.41:058][234]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.25.41:059][234]LogFbx: Warning: Triangulating static mesh pCone5
-[2018.10.18-14.25.41:083][234]LogStaticMesh: Building static mesh Platforms_pCone5...
-[2018.10.18-14.25.41:091][234]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone5.Platforms_pCone5
-[2018.10.18-14.25.41:100][234]LogFbx: Warning: Triangulating static mesh pCone6
-[2018.10.18-14.25.41:122][234]LogStaticMesh: Building static mesh Platforms_pCone6...
-[2018.10.18-14.25.41:133][234]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone6.Platforms_pCone6
-[2018.10.18-14.25.45:461][475]LogActorFactory: Actor Factory created Platforms_pCone2
-[2018.10.18-14.25.45:905][516]LogActorFactory: Actor Factory created Platforms_pCone2
-[2018.10.18-14.25.48:710][764]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.25.53:760][278]Cmd: DELETE
-[2018.10.18-14.25.53:760][278]Cmd: ACTOR DELETE
-[2018.10.18-14.25.53:784][278]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.25.53:920][278]LogEditorActor: Deleted 1 Actors (0.143 secs)
-[2018.10.18-14.25.57:547][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.18-14.26.01:464][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.26.01:625][ 22]LogActorFactory: Actor Factory created Platforms_pCone3
-[2018.10.18-14.26.02:252][ 81]LogActorFactory: Actor Factory created Platforms_pCone3
-[2018.10.18-14.26.16:223][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.18-14.26.20:092][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone3)
-[2018.10.18-14.26.22:205][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.26.36:483][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.26.42:354][ 78]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.18-14.27.11:688][290]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_Auto1D4BCA3A24E26ED710CF2ACAF74AEADED.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2018.10.18-14.27.11:693][290]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.292
-[2018.10.18-14.27.11:693][290]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
-[2018.10.18-14.27.11:698][290]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Models/lambert3] ([1] browsable assets)...
-[2018.10.18-14.27.11:727][290]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Models/lambert3.lambert3]
-[2018.10.18-14.27.11:727][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Models/lambert3]
-[2018.10.18-14.27.11:742][290]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/lambert3_Auto14D9E1FC6402D81BD8D940A95C7A6A2DE.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Autosaves/Game/FirstPersonBP/Models/lambert3_Auto1.uasset'
-[2018.10.18-14.27.11:745][290]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Models/lambert2] ([1] browsable assets)...
-[2018.10.18-14.27.11:770][290]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Models/lambert2.lambert2]
-[2018.10.18-14.27.11:770][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Models/lambert2]
-[2018.10.18-14.27.11:792][290]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/lambert2_Auto13886EC5043F3B1E888F02D8B3D118816.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Autosaves/Game/FirstPersonBP/Models/lambert2_Auto1.uasset'
-[2018.10.18-14.27.11:794][290]LogFileHelpers: Auto-saving content packages took 0.097
-[2018.10.18-14.28.10:457][589]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\karrlem_lewis\Desktop\Platforms.fbx)
-[2018.10.18-14.28.10:482][589]LogFbx: Loading FBX Scene from C:\Users\karrlem_lewis\Desktop\Platforms.fbx
-[2018.10.18-14.28.10:508][589]LogFbx: FBX Scene Loaded Succesfully
-[2018.10.18-14.28.13:771][589]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.10.18-14.28.13:815][589]LogFbx: Warning: Triangulating static mesh pCone1
-[2018.10.18-14.28.13:847][589]LogStaticMesh: Building static mesh Platforms_pCone1...
-[2018.10.18-14.28.13:857][589]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone1.Platforms_pCone1
-[2018.10.18-14.28.13:871][589]LogFbx: Warning: Triangulating static mesh pCone2
-[2018.10.18-14.28.13:900][589]LogStaticMesh: Building static mesh Platforms_pCone2...
-[2018.10.18-14.28.13:909][589]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone2.Platforms_pCone2
-[2018.10.18-14.28.13:920][589]LogFbx: Warning: Triangulating static mesh pCone3
-[2018.10.18-14.28.13:947][589]LogStaticMesh: Building static mesh Platforms_pCone3...
-[2018.10.18-14.28.13:952][589]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone3.Platforms_pCone3
-[2018.10.18-14.28.13:960][589]LogFbx: Warning: Triangulating static mesh pCone4
-[2018.10.18-14.28.13:981][589]LogStaticMesh: Building static mesh Platforms_pCone4...
-[2018.10.18-14.28.13:990][589]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone4.Platforms_pCone4
-[2018.10.18-14.28.13:999][589]LogFbx: Warning: Triangulating static mesh pCone5
-[2018.10.18-14.28.14:016][589]LogStaticMesh: Building static mesh Platforms_pCone5...
-[2018.10.18-14.28.14:021][589]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Platforms_pCone5.Platforms_pCone5
-[2018.10.18-14.28.14:027][589]LogFbx: Warning: Triangulating static mesh pCone6
-[2018.10.18-14.28.14:045][589]LogStaticMesh: Building static mesh Platforms_pCone6...
-[2018.10.18-14.28.14:050][589]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/Platforms_pCone6.Platforms_pCone6
-[2018.10.18-14.28.17:468][750]LogActorFactory: Actor Factory created Platforms_pCone3
-[2018.10.18-14.28.18:458][828]LogActorFactory: Actor Factory created Platforms_pCone3
-[2018.10.18-14.28.27:189][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.28.34:717][975]LogSlate: Took 0.201924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.18-14.28.35:796][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.28.43:227][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.28.48:312][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
-[2018.10.18-14.29.00:398][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.18-14.29.02:054][ 71]Cmd: DELETE
-[2018.10.18-14.29.02:054][ 71]Cmd: ACTOR DELETE
-[2018.10.18-14.29.02:059][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.29.02:170][ 71]LogEditorActor: Deleted 1 Actors (0.116 secs)
-[2018.10.18-14.29.03:438][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
-[2018.10.18-14.29.42:660][162]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.29.43:725][264]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.29.52:724][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.29.52:835][ 84]LogActorFactory: Actor Factory created Platforms_pCone6
-[2018.10.18-14.29.53:767][171]LogActorFactory: Actor Factory created Platforms_pCone6
-[2018.10.18-14.29.54:926][267]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.29.58:079][584]Cmd: DELETE
-[2018.10.18-14.29.58:080][584]Cmd: ACTOR DELETE
-[2018.10.18-14.29.58:083][584]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.29.58:203][584]LogEditorActor: Deleted 1 Actors (0.123 secs)
-[2018.10.18-14.30.00:963][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.30.01:038][740]LogActorFactory: Actor Factory created Platforms_pCone1
-[2018.10.18-14.30.01:460][788]LogActorFactory: Actor Factory created Platforms_pCone1
-[2018.10.18-14.30.02:783][932]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.30.08:623][567]Cmd: TRANSACTION UNDO
-[2018.10.18-14.30.08:623][567]LogEditorTransaction: Undo Move Actors
-[2018.10.18-14.30.08:982][574]Cmd: TRANSACTION UNDO
-[2018.10.18-14.30.08:982][574]LogEditorTransaction: Undo Create Actors
-[2018.10.18-14.30.13:266][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform)
-[2018.10.18-14.30.14:327][955]Cmd: DELETE
-[2018.10.18-14.30.14:328][955]Cmd: ACTOR DELETE
-[2018.10.18-14.30.14:334][955]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.30.14:451][955]LogEditorActor: Deleted 1 Actors (0.123 secs)
-[2018.10.18-14.30.17:350][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.30.17:479][164]LogActorFactory: Actor Factory created Platforms_pCone5
-[2018.10.18-14.30.18:441][275]LogActorFactory: Actor Factory created Platforms_pCone5
-[2018.10.18-14.30.25:947][ 55]Cmd: TRANSACTION UNDO
-[2018.10.18-14.30.25:947][ 55]LogEditorTransaction: Undo Scale Actors
-[2018.10.18-14.30.26:319][ 79]Cmd: TRANSACTION UNDO
-[2018.10.18-14.30.26:319][ 79]LogEditorTransaction: Undo Scale Actors
-[2018.10.18-14.30.33:798][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.30.35:660][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.30.36:148][951]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.30.36:387][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.30.45:030][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
-[2018.10.18-14.30.45:651][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform2)
-[2018.10.18-14.30.47:301][849]Cmd: DELETE
-[2018.10.18-14.30.47:301][849]Cmd: ACTOR DELETE
-[2018.10.18-14.30.47:308][849]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.30.47:423][849]LogEditorActor: Deleted 1 Actors (0.122 secs)
-[2018.10.18-14.30.49:469][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.30.52:716][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform3)
-[2018.10.18-14.30.54:274][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.31.05:824][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.31.13:090][545]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.31.13:133][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.31.18:874][949]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.31.20:081][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.31.21:028][147]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2018.10.18-14.31.21:039][147]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonBP/Models/Platforms_pCone5.Platforms_pCone5
-[2018.10.18-14.31.22:537][148]LogRenderer: Reallocating scene render targets to support 1208x548 Format 10 NumSamples 1 (Frame:1).
-[2018.10.18-14.31.25:084][316]LogSlate: Window 'Platforms_pCone5*' being destroyed
-[2018.10.18-14.31.25:086][316]LogSlate: Window 'Platforms_pCone5*' being destroyed
-[2018.10.18-14.31.26:420][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone5)
-[2018.10.18-14.31.27:447][541]Cmd: DUPLICATE
-[2018.10.18-14.31.27:447][541]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.31.33:026][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform3)
-[2018.10.18-14.31.34:153][193]Cmd: DELETE
-[2018.10.18-14.31.34:153][193]Cmd: ACTOR DELETE
-[2018.10.18-14.31.34:157][193]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.31.34:270][193]LogEditorActor: Deleted 1 Actors (0.116 secs)
-[2018.10.18-14.31.34:677][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone6)
-[2018.10.18-14.31.44:997][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone6)
-[2018.10.18-14.31.51:952][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.31.52:269][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
-[2018.10.18-14.32.06:331][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.32.06:511][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.32.06:802][121]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap428BA1484F48EF895A59C09B5D1FDFEA.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.10.18-14.32.07:216][121]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltDataF0E48E3F4A99B178C544B1B0A684FC12.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.10.18-14.32.57:718][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.32.57:881][640]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\karrlem_lewis\Desktop\hut.fbx)
-[2018.10.18-14.32.57:906][640]LogFbx: Loading FBX Scene from C:\Users\karrlem_lewis\Desktop\hut.fbx
-[2018.10.18-14.32.57:939][640]LogFbx: FBX Scene Loaded Succesfully
-[2018.10.18-14.33.04:952][640]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.10.18-14.33.05:004][640]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2018.10.18-14.33.05:025][640]LogFbx: Warning: Triangulating static mesh Hut
-[2018.10.18-14.33.05:036][640]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.33.05:036][640]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.33.05:036][640]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.33.05:040][640]LogStaticMesh: Building static mesh hut_Hut...
-[2018.10.18-14.33.05:042][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_Hut.hut_Hut
-[2018.10.18-14.33.05:052][640]LogFbx: Warning: Triangulating static mesh Pipe
-[2018.10.18-14.33.05:069][640]LogStaticMesh: Building static mesh hut_Pipe...
-[2018.10.18-14.33.05:073][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_Pipe.hut_Pipe
-[2018.10.18-14.33.05:088][640]LogFbx: Warning: Triangulating static mesh Door
-[2018.10.18-14.33.05:095][640]LogStaticMesh: Building static mesh hut_Door...
-[2018.10.18-14.33.05:097][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_Door.hut_Door
-[2018.10.18-14.33.05:107][640]LogFbx: Warning: Triangulating static mesh pCylinder4
-[2018.10.18-14.33.05:117][640]LogStaticMesh: Building static mesh hut_pCylinder4...
-[2018.10.18-14.33.05:121][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder4.hut_pCylinder4
-[2018.10.18-14.33.05:132][640]LogFbx: Warning: Triangulating static mesh pCylinder3
-[2018.10.18-14.33.05:145][640]LogStaticMesh: Building static mesh hut_pCylinder3...
-[2018.10.18-14.33.05:152][640]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/hut_pCylinder3.hut_pCylinder3
-[2018.10.18-14.33.05:163][640]LogFbx: Warning: Triangulating static mesh pCylinder5
-[2018.10.18-14.33.05:165][640]LogStaticMesh: Building static mesh hut_pCylinder5...
-[2018.10.18-14.33.05:167][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder5.hut_pCylinder5
-[2018.10.18-14.33.05:174][640]LogFbx: Warning: Triangulating static mesh pCube7
-[2018.10.18-14.33.05:177][640]LogStaticMesh: Building static mesh hut_pCube7...
-[2018.10.18-14.33.05:178][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube7.hut_pCube7
-[2018.10.18-14.33.05:188][640]LogFbx: Warning: Triangulating static mesh pCube6
-[2018.10.18-14.33.05:191][640]LogStaticMesh: Building static mesh hut_pCube6...
-[2018.10.18-14.33.05:192][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube6.hut_pCube6
-[2018.10.18-14.33.05:192][640]LogStaticMesh: Warning: hut_pCube6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.10.18-14.33.05:192][640]LogStaticMesh: Warning: hut_pCube6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2018.10.18-14.33.05:199][640]LogFbx: Warning: Triangulating static mesh pCube5
-[2018.10.18-14.33.05:202][640]LogStaticMesh: Building static mesh hut_pCube5...
-[2018.10.18-14.33.05:203][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube5.hut_pCube5
-[2018.10.18-14.33.05:203][640]LogStaticMesh: Warning: hut_pCube5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2018.10.18-14.33.05:212][640]LogFbx: Warning: Triangulating static mesh pCube4
-[2018.10.18-14.33.05:218][640]LogStaticMesh: Building static mesh hut_pCube4...
-[2018.10.18-14.33.05:220][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube4.hut_pCube4
-[2018.10.18-14.33.05:229][640]LogFbx: Warning: Triangulating static mesh pCube2
-[2018.10.18-14.33.05:233][640]LogStaticMesh: Building static mesh hut_pCube2...
-[2018.10.18-14.33.05:234][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube2.hut_pCube2
-[2018.10.18-14.33.05:240][640]LogFbx: Warning: Triangulating static mesh pCylinder4
-[2018.10.18-14.33.05:250][640]LogStaticMesh: Building static mesh hut_pCylinder4_1...
-[2018.10.18-14.33.05:253][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder4_1.hut_pCylinder4_1
-[2018.10.18-14.33.05:261][640]LogFbx: Warning: Triangulating static mesh pCylinder3
-[2018.10.18-14.33.05:269][640]LogStaticMesh: Building static mesh hut_pCylinder3_1...
-[2018.10.18-14.33.05:273][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder3_1.hut_pCylinder3_1
-[2018.10.18-14.33.05:279][640]LogFbx: Warning: Triangulating static mesh pCylinder5
-[2018.10.18-14.33.05:281][640]LogStaticMesh: Building static mesh hut_pCylinder5_1...
-[2018.10.18-14.33.05:283][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder5_1.hut_pCylinder5_1
-[2018.10.18-14.33.05:292][640]LogFbx: Warning: Triangulating static mesh pCube7
-[2018.10.18-14.33.05:297][640]LogStaticMesh: Building static mesh hut_pCube7_1...
-[2018.10.18-14.33.05:300][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube7_1.hut_pCube7_1
-[2018.10.18-14.33.05:309][640]LogFbx: Warning: Triangulating static mesh pCylinder4
-[2018.10.18-14.33.05:323][640]LogStaticMesh: Building static mesh hut_pCylinder4_2...
-[2018.10.18-14.33.05:330][640]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/hut_pCylinder4_2.hut_pCylinder4_2
-[2018.10.18-14.33.05:338][640]LogFbx: Warning: Triangulating static mesh pCylinder3
-[2018.10.18-14.33.05:346][640]LogStaticMesh: Building static mesh hut_pCylinder3_2...
-[2018.10.18-14.33.05:350][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder3_2.hut_pCylinder3_2
-[2018.10.18-14.33.05:356][640]LogFbx: Warning: Triangulating static mesh pCylinder5
-[2018.10.18-14.33.05:358][640]LogStaticMesh: Building static mesh hut_pCylinder5_2...
-[2018.10.18-14.33.05:360][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder5_2.hut_pCylinder5_2
-[2018.10.18-14.33.05:370][640]LogFbx: Warning: Triangulating static mesh pCube7
-[2018.10.18-14.33.05:375][640]LogStaticMesh: Building static mesh hut_pCube7_2...
-[2018.10.18-14.33.05:376][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube7_2.hut_pCube7_2
-[2018.10.18-14.33.05:383][640]LogFbx: Warning: Triangulating static mesh pCylinder4
-[2018.10.18-14.33.05:391][640]LogStaticMesh: Building static mesh hut_pCylinder4_3...
-[2018.10.18-14.33.05:394][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder4_3.hut_pCylinder4_3
-[2018.10.18-14.33.05:400][640]LogFbx: Warning: Triangulating static mesh pCylinder3
-[2018.10.18-14.33.05:410][640]LogStaticMesh: Building static mesh hut_pCylinder3_3...
-[2018.10.18-14.33.05:416][640]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/hut_pCylinder3_3.hut_pCylinder3_3
-[2018.10.18-14.33.05:424][640]LogFbx: Warning: Triangulating static mesh pCylinder5
-[2018.10.18-14.33.05:426][640]LogStaticMesh: Building static mesh hut_pCylinder5_3...
-[2018.10.18-14.33.05:429][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCylinder5_3.hut_pCylinder5_3
-[2018.10.18-14.33.05:434][640]LogFbx: Warning: Triangulating static mesh pCube7
-[2018.10.18-14.33.05:437][640]LogStaticMesh: Building static mesh hut_pCube7_3...
-[2018.10.18-14.33.05:438][640]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/hut_pCube7_3.hut_pCube7_3
-[2018.10.18-14.33.05:450][640]FBXImport: Warning: hut_pCube6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.10.18-14.33.05:450][640]FBXImport: Warning: hut_pCube6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2018.10.18-14.33.05:450][640]FBXImport: Warning: hut_pCube5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2018.10.18-14.33.08:941][927]LogSlate: Window 'Message Log' being destroyed
-[2018.10.18-14.33.08:946][927]LogSlate: Window 'Message Log' being destroyed
-[2018.10.18-14.33.15:665][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.33.15:812][379]LogActorFactory: Actor Factory created hut_Hut
-[2018.10.18-14.33.16:442][433]LogActorFactory: Actor Factory created hut_Hut
-[2018.10.18-14.33.21:080][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.33.30:162][896]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.18-14.34.01:084][190]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\karrlem_lewis\Desktop\hut.fbx)
-[2018.10.18-14.34.01:109][190]LogFbx: Loading FBX Scene from C:\Users\karrlem_lewis\Desktop\hut.fbx
-[2018.10.18-14.34.01:131][190]LogFbx: FBX Scene Loaded Succesfully
-[2018.10.18-14.34.03:233][190]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.10.18-14.34.03:288][190]LogFbx: Warning: Triangulating static mesh Door1
-[2018.10.18-14.34.03:379][190]LogStaticMesh: Building static mesh hut...
-[2018.10.18-14.34.03:414][190]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/Models/hut.hut
-[2018.10.18-14.34.03:417][190]LogStaticMesh: Warning: hut has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.10.18-14.34.03:417][190]LogStaticMesh: Warning: hut has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2018.10.18-14.34.03:431][190]FBXImport: Warning: hut has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.10.18-14.34.03:431][190]FBXImport: Warning: hut has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2018.10.18-14.34.08:400][612]LogSlate: Window 'Message Log' being destroyed
-[2018.10.18-14.34.08:404][612]LogSlate: Window 'Message Log' being destroyed
-[2018.10.18-14.34.12:351][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.18-14.34.13:274][ 99]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.34.14:963][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.34.15:071][215]LogActorFactory: Actor Factory created hut
-[2018.10.18-14.34.15:827][284]LogActorFactory: Actor Factory created hut
-[2018.10.18-14.34.17:275][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.18-14.34.18:537][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hut)
-[2018.10.18-14.34.33:019][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.18-14.34.34:579][194]Cmd: DELETE
-[2018.10.18-14.34.34:579][194]Cmd: ACTOR DELETE
-[2018.10.18-14.34.34:586][194]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.34.34:709][194]LogEditorActor: Deleted 1 Actors (0.129 secs)
-[2018.10.18-14.34.35:641][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hut)
-[2018.10.18-14.34.44:479][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.34.44:550][214]Cmd: MODE SCALEGRID=0
-[2018.10.18-14.34.45:022][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.34.47:140][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hut)
-[2018.10.18-14.34.49:279][670]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.35.04:524][554]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.35.04:717][554]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.35.05:058][554]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap69880B8643FE8D36B418519515E4556D.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.10.18-14.35.05:452][554]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData87E1211541A60133893A7A8E21121661.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.10.18-14.37.06:791][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.37.06:980][243]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\karrlem_lewis\Desktop\Items.fbx)
-[2018.10.18-14.37.07:003][243]LogFbx: Loading FBX Scene from C:\Users\karrlem_lewis\Desktop\Items.fbx
-[2018.10.18-14.37.07:026][243]LogFbx: FBX Scene Loaded Succesfully
-[2018.10.18-14.37.10:970][243]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.10.18-14.37.11:022][243]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
-[2018.10.18-14.37.11:048][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:048][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:048][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:056][243]LogMaterial: Display: Missing cached shader map for material lambert8, compiling. 
-[2018.10.18-14.37.11:093][243]LogFbx: Warning: Triangulating static mesh shroom
-[2018.10.18-14.37.11:105][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:105][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:105][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:110][243]LogStaticMesh: Building static mesh Items_shroom...
-[2018.10.18-14.37.11:115][243]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/Models/Items_shroom.Items_shroom
-[2018.10.18-14.37.11:140][243]LogMaterial: Display: Missing cached shader map for material lambert12, compiling. 
-[2018.10.18-14.37.11:159][243]LogFbx: Warning: Triangulating static mesh cauldron
-[2018.10.18-14.37.11:174][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:174][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:174][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:176][243]LogStaticMesh: Building static mesh Items_cauldron...
-[2018.10.18-14.37.11:179][243]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Models/Items_cauldron.Items_cauldron
-[2018.10.18-14.37.11:198][243]LogFbx: Warning: Triangulating static mesh tree
-[2018.10.18-14.37.11:211][243]LogStaticMesh: Building static mesh Items_tree...
-[2018.10.18-14.37.11:257][243]LogStaticMesh: Built static mesh [0.05s] /Game/FirstPersonBP/Models/Items_tree.Items_tree
-[2018.10.18-14.37.11:277][243]LogMaterial: Display: Missing cached shader map for material lambert6, compiling. 
-[2018.10.18-14.37.11:298][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:299][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:299][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:302][243]LogMaterial: Display: Missing cached shader map for material lambert7, compiling. 
-[2018.10.18-14.37.11:334][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:335][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:335][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:335][243]LogMaterial: Display: Missing cached shader map for material lambert4, compiling. 
-[2018.10.18-14.37.11:377][243]LogMaterial: Display: Missing cached shader map for material lambert5, compiling. 
-[2018.10.18-14.37.11:400][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:400][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:400][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:403][243]LogFbx: Warning: Triangulating static mesh tree1
-[2018.10.18-14.37.11:418][243]LogStaticMesh: Building static mesh Items_tree1...
-[2018.10.18-14.37.11:445][243]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.18-14.37.11:445][243]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.18-14.37.11:445][243]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.18-14.37.11:445][243]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/Models/Items_tree1.Items_tree1
-[2018.10.18-14.37.23:428][773]SourceControl: fatal: Q:/K/UE_4.20/Engine/Content: 'Q:/K/UE_4.20/Engine/Content' is outside repository
-[2018.10.18-14.37.23:579][773]EditorErrors: Warning: No assets to check in!
-[2018.10.18-14.37.29:923][945]LogActorFactory: Actor Factory created Items_tree
-[2018.10.18-14.37.30:307][956]LogActorFactory: Actor Factory created Items_tree
-[2018.10.18-14.37.33:623][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.37.35:526][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree)
-[2018.10.18-14.37.36:891][391]Cmd: DELETE
-[2018.10.18-14.37.36:891][391]Cmd: ACTOR DELETE
-[2018.10.18-14.37.36:896][391]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.37.37:009][391]LogEditorActor: Deleted 1 Actors (0.119 secs)
-[2018.10.18-14.37.38:871][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2018.10.18-14.37.40:518][754]Cmd: DELETE
-[2018.10.18-14.37.40:518][754]Cmd: ACTOR DELETE
-[2018.10.18-14.37.40:522][754]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.37.40:637][754]LogEditorActor: Deleted 1 Actors (0.119 secs)
-[2018.10.18-14.37.40:944][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
-[2018.10.18-14.37.41:072][791]Cmd: DELETE
-[2018.10.18-14.37.41:072][791]Cmd: ACTOR DELETE
-[2018.10.18-14.37.41:075][791]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.37.41:188][791]LogEditorActor: Deleted 1 Actors (0.116 secs)
-[2018.10.18-14.37.41:727][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.10.18-14.37.41:919][866]Cmd: DELETE
-[2018.10.18-14.37.41:919][866]Cmd: ACTOR DELETE
-[2018.10.18-14.37.41:922][866]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.37.42:019][866]LogEditorActor: Deleted 1 Actors (0.100 secs)
-[2018.10.18-14.37.45:462][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
-[2018.10.18-14.37.46:511][296]Cmd: DELETE
-[2018.10.18-14.37.46:511][296]Cmd: ACTOR DELETE
-[2018.10.18-14.37.46:514][296]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.18-14.37.46:623][296]LogEditorActor: Deleted 1 Actors (0.112 secs)
-[2018.10.18-14.37.47:353][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.37.47:469][324]LogActorFactory: Actor Factory created Items_cauldron
-[2018.10.18-14.37.48:410][429]LogActorFactory: Actor Factory created Items_cauldron
-[2018.10.18-14.37.49:436][537]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.38.03:487][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.38.07:372][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.18-14.38.07:476][366]LogActorFactory: Actor Factory created Items_tree1
-[2018.10.18-14.38.07:729][388]LogActorFactory: Actor Factory created Items_tree1
-[2018.10.18-14.38.12:029][851]Cmd: TRANSACTION UNDO
-[2018.10.18-14.38.12:029][851]LogEditorTransaction: Undo Create Actors
-[2018.10.18-14.38.27:337][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.38.27:812][ 20]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap33BCD2DE4AB7C264FAA70CBBD3386132.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.10.18-14.38.28:243][ 20]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltDataE8268A264C1E2B842EB96FB4C9E74E2B.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.10.18-14.38.34:183][181]LogActorFactory: Actor Factory created Items_tree1
-[2018.10.18-14.38.34:828][236]LogActorFactory: Actor Factory created Items_tree1
-[2018.10.18-14.38.43:375][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.38.46:250][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree1)
-[2018.10.18-14.38.58:841][515]Cmd: DUPLICATE
-[2018.10.18-14.38.58:841][515]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.05:459][168]Cmd: DUPLICATE
-[2018.10.18-14.39.05:459][168]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.11:005][688]Cmd: DUPLICATE
-[2018.10.18-14.39.11:005][688]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.13:482][927]Cmd: DUPLICATE
-[2018.10.18-14.39.13:482][927]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.19:549][544]Cmd: DUPLICATE
-[2018.10.18-14.39.19:549][544]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.22:156][797]Cmd: DUPLICATE
-[2018.10.18-14.39.22:156][797]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.23:840][957]Cmd: DUPLICATE
-[2018.10.18-14.39.23:840][957]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.26:681][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree6)
-[2018.10.18-14.39.30:104][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree7)
-[2018.10.18-14.39.32:810][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree8)
-[2018.10.18-14.39.40:181][555]Cmd: DUPLICATE
-[2018.10.18-14.39.40:181][555]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.44:816][984]Cmd: TRANSACTION UNDO
-[2018.10.18-14.39.44:816][984]LogEditorTransaction: Undo Move Actors
-[2018.10.18-14.39.49:958][291]Cmd: DUPLICATE
-[2018.10.18-14.39.49:958][291]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.52:486][521]Cmd: DUPLICATE
-[2018.10.18-14.39.52:486][521]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.54:575][718]Cmd: DUPLICATE
-[2018.10.18-14.39.54:575][718]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.39.57:412][995]Cmd: DUPLICATE
-[2018.10.18-14.39.57:412][995]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.40.01:868][431]Cmd: TRANSACTION UNDO
-[2018.10.18-14.40.01:868][431]LogEditorTransaction: Undo Move Actors
-[2018.10.18-14.40.04:342][511]Cmd: TRANSACTION UNDO
-[2018.10.18-14.40.04:342][511]LogEditorTransaction: Undo Move Actors
-[2018.10.18-14.40.05:186][537]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.10.18-14.40.08:810][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree1)
-[2018.10.18-14.40.09:753][845]Cmd: DUPLICATE
-[2018.10.18-14.40.09:753][845]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.40.11:878][ 42]Cmd: DUPLICATE
-[2018.10.18-14.40.11:878][ 42]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.40.14:553][309]Cmd: DUPLICATE
-[2018.10.18-14.40.14:553][309]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.40.16:474][490]Cmd: DUPLICATE
-[2018.10.18-14.40.16:474][490]Cmd: ACTOR DUPLICATE
-[2018.10.18-14.40.19:156][747]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.40.38:674][553]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.18-14.40.52:086][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.40.52:579][794]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMapB75C40524CBFCFFAF3170E849722ED3E.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.10.18-14.40.53:021][794]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData0CC32938413751E7B758659C3FE080FF.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.10.18-14.40.57:642][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree21)
-[2018.10.18-14.41.00:074][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree20)
-[2018.10.18-14.41.03:057][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree19)
-[2018.10.18-14.41.04:998][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree18)
-[2018.10.18-14.41.07:589][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree17)
-[2018.10.18-14.41.11:102][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.41.11:587][570]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMapA51CD7C749511D481E0CBEA791325159.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.10.18-14.41.12:011][570]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData8144835B4D89F5C5CA99A0A42672C69D.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.10.18-14.41.13:925][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.41.15:752][828]SourceControl: fatal: Q:/K/UE_4.20/Engine/Content: 'Q:/K/UE_4.20/Engine/Content' is outside repository
-[2018.10.18-14.41.15:930][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.41.26:627][828]LogSlate: Window 'Submit Files' being destroyed
-[2018.10.18-14.41.26:640][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.41.26:799][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.18-14.41.28:432][828]LogSourceControl: commit successful: [master 27e913c] Added environment items
-[2018.10.18-14.41.28:545][828]SourceControl: [master 27e913c] Added environment items
-[2018.10.18-14.41.28:545][828]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2018.10.18-14.41.28:556][828]SourceControl: Commited [master 27e913c] Added environment items.
+[2018.10.22-12.19.45:739][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-12.19.45:739][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.22-12.19.45:772][  0]LogHAL: Display: Platform has ~ 32 GB [34262687744 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.22-12.19.45:772][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.22-12.19.45:772][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.22-12.19.45:773][  0]LogInit: Computer: A-C613-W06
+[2018.10.22-12.19.45:773][  0]LogInit: User: karrlemlewis
+[2018.10.22-12.19.45:773][  0]LogInit: CPU Page size=4096, Cores=16
+[2018.10.22-12.19.45:773][  0]LogInit: High frequency timer resolution =2.533232 MHz
+[2018.10.22-12.19.45:773][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.22-12.19.45:773][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.22-12.19.45:773][  0]LogMemory: Process Physical Memory: 117.26 MB used, 117.26 MB peak
+[2018.10.22-12.19.45:773][  0]LogMemory: Process Virtual Memory: 110.92 MB used, 110.92 MB peak
+[2018.10.22-12.19.45:773][  0]LogMemory: Physical Memory: 5663.35 MB used,  27012.09 MB free, 32675.45 MB total
+[2018.10.22-12.19.45:773][  0]LogMemory: Virtual Memory: 591.89 MB used,  27012.09 MB free, 8388608.00 MB total
+[2018.10.22-12.19.45:841][  0]LogInit: Using OS detected language (en-US).
+[2018.10.22-12.19.45:841][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.22-12.19.45:842][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.22-12.19.46:372][  0]LogStreaming: Display: Took  0.531s to InitEngineTextLocalization.
+[2018.10.22-12.19.46:373][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.10.22-12.19.46:373][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.10.22-12.19.46:373][  0]LogInit: Setting process to DPI aware
+[2018.10.22-12.19.46:412][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.22-12.19.46:412][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.22-12.19.46:692][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-12.19.46:692][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.22-12.19.46:721][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2018.10.22-12.19.46:721][  0]LogD3D11RHI:       4034/0/16081 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.22-12.19.46:721][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.22-12.19.46:731][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.22-12.19.46:731][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2018.10.22-12.19.46:731][  0]LogWindows: EnumDisplayDevices:
+[2018.10.22-12.19.46:731][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2018.10.22-12.19.46:732][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.10.22-12.19.46:732][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.10.22-12.19.46:732][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.10.22-12.19.46:732][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.10.22-12.19.46:733][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.10.22-12.19.46:733][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.10.22-12.19.46:733][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.22-12.19.46:733][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2018.10.22-12.19.46:733][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2018.10.22-12.19.46:733][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2018.10.22-12.19.46:733][  0]LogRHI: Texture pool is 2824 MB (70% of 4034 MB)
+[2018.10.22-12.19.46:751][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.22-12.19.46:767][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.22-12.19.46:770][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Intermediate/Shaders/WorkingDirectory/2104/).
+[2018.10.22-12.19.46:770][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/karrlem_lewis/AppData/Local/Temp/UnrealShaderWorkingDir/B228184346202A6A7D5A4DAA25999FCE/'.
+[2018.10.22-12.19.47:205][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.22-12.19.47:228][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.22-12.19.47:246][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.22-12.19.47:278][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.22-12.19.47:294][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.22-12.19.47:309][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.22-12.19.47:325][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.22-12.19.47:340][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.22-12.19.47:347][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:440][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-12.19.47:441][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.22-12.19.47:504][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-12.19.47:504][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-12.19.47:531][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-12.19.47:531][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-12.19.47:546][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.22-12.19.47:560][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.22-12.19.47:575][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.22-12.19.47:589][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.22-12.19.47:600][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.22-12.19.47:600][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.22-12.19.47:655][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.22-12.19.47:655][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.22-12.19.47:655][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.22-12.19.48:470][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.22-12.19.48:593][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-12.19.48:593][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.22-12.19.48:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.22-12.19.48:594][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.22-12.19.48:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.22-12.19.48:594][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.22-12.19.48:609][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.22-12.19.48:622][  0]LogDerivedDataCache: Using Local data cache path C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.22-12.19.48:622][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.22-12.19.48:622][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.22-12.19.48:645][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.22-12.19.48:647][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.22-12.19.48:648][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.22-12.19.48:748][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.10.22-12.19.49:179][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-12.19.49:365][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.22-12.19.49:368][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.22-12.19.49:368][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.22-12.19.49:368][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.22-12.19.49:368][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.22-12.19.49:392][  0]LogNetVersion: TheWitchsBrew 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2511835505)
+[2018.10.22-12.19.50:289][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.132971 seconds
+[2018.10.22-12.19.50:295][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.22-12.19.50:295][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.22-12.19.50:295][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.22-12.19.51:798][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.22-12.19.51:810][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.22-12.19.52:093][  0]SourceControl: Source control is disabled
+[2018.10.22-12.19.54:746][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.22-12.19.54:885][  0]LogOcInput: OculusInput pre-init called
+[2018.10.22-12.19.54:991][  0]LogEngine: Initializing Engine...
+[2018.10.22-12.19.54:993][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-12.19.54:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-12.19.54:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-12.19.54:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-12.19.54:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-12.19.55:426][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.22-12.19.55:447][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.22-12.19.55:504][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.19.55:569][  0]LogInit: FAudioDevice initialized.
+[2018.10.22-12.19.55:570][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.22-12.19.55:733][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/karrlem_lewis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-12.19.55:752][  0]LogInit: Texture streaming: Enabled
+[2018.10.22-12.19.55:781][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.22-12.19.55:814][  0]LogInit: Transaction tracking system initialized
+[2018.10.22-12.19.55:840][  0]BlueprintLog: New page: Editor Load
+[2018.10.22-12.19.55:935][  0]LocalizationService: Localization service is disabled
+[2018.10.22-12.19.56:338][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.22-12.19.56:338][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.22-12.19.56:338][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.22-12.19.56:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-12.19.56:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-12.19.56:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-12.19.56:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-12.19.56:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/' took 0.02s
+[2018.10.22-12.19.56:536][  0]Cmd: MAP LOAD FILE="C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-12.19.56:537][  0]LightingResults: New page: Lighting Build
+[2018.10.22-12.19.56:540][  0]MapCheck: New page: Map Check
+[2018.10.22-12.19.56:540][  0]LightingResults: New page: Lighting Build
+[2018.10.22-12.19.58:138][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.19.58:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-12.19.58:338][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-12.19.58:420][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.838ms to complete.
+[2018.10.22-12.19.58:420][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.884
+[2018.10.22-12.19.58:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.19.58:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.19.58:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.19.58:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.19.58:678][  0]LogCollectionManager: Loaded 0 collections in 0.001840 seconds
+[2018.10.22-12.19.58:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Collections/' took 0.01s
+[2018.10.22-12.19.58:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/Developers/karrlemlewis/Collections/' took 0.01s
+[2018.10.22-12.19.58:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/Collections/' took 0.01s
+[2018.10.22-12.19.58:727][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.22-12.19.58:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2572 classes and 603 folders.
+[2018.10.22-12.19.58:752][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.22-12.19.59:811][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.10.22-12.19.59:894][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.10.22-12.19.59:925][  0]LogSlate: Took 0.001806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.22-12.19.59:931][  0]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.22-12.19.59:955][  0]LogSlate: Took 0.005458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.22-12.20.00:231][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-12.20.00:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.22-12.20.00:677][  0]LogLoad: (Engine Initialization) Total time: 18.43 seconds
+[2018.10.22-12.20.00:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.22-12.20.00:723][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.22-12.20.00:806][  0]LogSlate: Took 0.004098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-12.20.01:024][  2]LogAssetRegistry: Asset discovery search completed in 12.2963 seconds
+[2018.10.22-12.20.01:028][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.22-12.20.01:028][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
+[2018.10.22-12.20.09:906][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_tree13)
+[2018.10.22-12.20.12:655][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.20.14:005][321]LogSlate: Took 0.000557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-12.20.25:663][184]Cmd: TRANSACTION UNDO
+[2018.10.22-12.20.25:663][184]LogEditorTransaction: Undo Replace component used material
+[2018.10.22-12.20.42:274][297]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.20.44:664][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
+[2018.10.22-12.20.48:910][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.20.49:950][980]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonBP/Models/Items_tree1.Items_tree1
+[2018.10.22-12.20.51:116][981]LogRenderer: Reallocating scene render targets to support 1208x548 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-12.20.54:309][151]LogSlate: Window 'Items_tree1' being destroyed
+[2018.10.22-12.20.54:312][151]LogSlate: Window 'Items_tree1' being destroyed
+[2018.10.22-12.20.55:455][223]Cmd: TRANSACTION UNDO
+[2018.10.22-12.20.55:455][223]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-12.20.55:793][232]Cmd: TRANSACTION UNDO
+[2018.10.22-12.20.55:793][232]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-12.20.56:129][237]Cmd: TRANSACTION UNDO
+[2018.10.22-12.20.56:129][237]LogEditorTransaction: Undo Replace component used material
+[2018.10.22-12.20.56:403][242]Cmd: TRANSACTION UNDO
+[2018.10.22-12.20.56:403][242]LogEditorTransaction: Undo Replace component used material
+[2018.10.22-12.20.57:823][274]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonBP/Models/Items_tree1.Items_tree1
+[2018.10.22-12.21.00:062][325]LogSlate: Took 0.018568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.22-12.21.11:657][832]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Items_tree1AE0EDC844E512214931E09A5413EF9ED.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Models/Items_tree1.uasset'
+[2018.10.22-12.21.12:767][897]LogSlate: Window 'Items_tree1' being destroyed
+[2018.10.22-12.21.12:770][897]LogSlate: Window 'Items_tree1' being destroyed
+[2018.10.22-12.21.14:238][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.21.16:588][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.21.20:155][660]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.21.32:929][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.21.47:566][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.21.47:707][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.21.48:249][370]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap7D6641DA495579A8555C84A6A71C7DD7.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.21.48:994][370]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData418E810E44D2589417CA41BD0924693D.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.21.51:353][611]Cmd: TRANSACTION UNDO
+[2018.10.22-12.21.51:353][611]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.21.53:231][693]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.21.55:476][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.21.56:494][833]LogActorFactory: Actor Factory created Platforms_pCone3
+[2018.10.22-12.22.00:790][243]LogActorFactory: Actor Factory created Platforms_pCone3
+[2018.10.22-12.22.01:610][312]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.22.05:492][731]Cmd: DELETE
+[2018.10.22-12.22.05:492][731]Cmd: ACTOR DELETE
+[2018.10.22-12.22.05:500][731]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-12.22.05:619][731]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2018.10.22-12.22.07:514][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.22.07:654][903]LogActorFactory: Actor Factory created Platforms_pCone2
+[2018.10.22-12.22.09:427][112]LogActorFactory: Actor Factory created Platforms_pCone2
+[2018.10.22-12.22.10:284][193]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.22.25:334][845]Cmd: DELETE
+[2018.10.22-12.22.25:334][845]Cmd: ACTOR DELETE
+[2018.10.22-12.22.25:337][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-12.22.25:431][845]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2018.10.22-12.22.26:513][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
+[2018.10.22-12.22.29:633][316]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.22.37:900][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
+[2018.10.22-12.22.39:420][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.22.39:630][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.22.39:968][366]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMapBDF76C10454F122CB5DCB391FDEAFDD0.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.22.40:373][366]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltDataD42C0D4A4AE2EF006749E1801E0016E3.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.22.47:778][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hut)
+[2018.10.22-12.22.48:693][266]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.22.49:276][330]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.23.16:273][171]Cmd: TRANSACTION UNDO
+[2018.10.22-12.23.16:273][171]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-12.23.16:741][191]Cmd: TRANSACTION UNDO
+[2018.10.22-12.23.16:741][191]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-12.23.24:074][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.23.24:235][735]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonBP/Models/Items_tree1.Items_tree1
+[2018.10.22-12.23.53:613][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.23.56:299][372]LogEditorTransaction: Undo StaticMesh: Material changed
+[2018.10.22-12.24.03:399][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.24.03:466][744]LogSlate: Window 'Items_tree1*' being destroyed
+[2018.10.22-12.24.03:468][744]LogSlate: Window 'Items_tree1*' being destroyed
+[2018.10.22-12.24.10:711][482]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.24.15:061][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-12.24.17:033][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.24.17:106][ 16]LogActorFactory: Actor Factory created Platforms_pCone1
+[2018.10.22-12.24.20:122][314]LogActorFactory: Actor Factory created Platforms_pCone1
+[2018.10.22-12.25.08:557][250]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.25.11:331][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.25.11:872][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone1)
+[2018.10.22-12.25.20:240][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-12.25.21:458][558]Cmd: DELETE
+[2018.10.22-12.25.21:458][558]Cmd: ACTOR DELETE
+[2018.10.22-12.25.21:462][558]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-12.25.21:574][558]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2018.10.22-12.25.22:039][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone1)
+[2018.10.22-12.25.24:910][910]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.25.26:973][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone1)
+[2018.10.22-12.25.37:440][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.25.37:554][949]LogActorFactory: Actor Factory created Items_shroom
+[2018.10.22-12.25.38:620][ 47]LogActorFactory: Actor Factory created Items_shroom
+[2018.10.22-12.25.41:177][305]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.25.45:463][754]Cmd: TRANSACTION UNDO
+[2018.10.22-12.25.45:463][754]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.25.50:064][ 50]Cmd: TRANSACTION UNDO
+[2018.10.22-12.25.50:064][ 50]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.25.59:319][866]Cmd: TRANSACTION UNDO
+[2018.10.22-12.25.59:319][866]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.26.04:028][165]Cmd: TRANSACTION UNDO
+[2018.10.22-12.26.04:028][165]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.26.10:153][616]Cmd: TRANSACTION UNDO
+[2018.10.22-12.26.10:153][616]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.26.13:390][760]Cmd: TRANSACTION UNDO
+[2018.10.22-12.26.13:390][760]LogEditorTransaction: Undo Scale Actors
+[2018.10.22-12.26.27:594][ 34]Cmd: TRANSACTION UNDO
+[2018.10.22-12.26.27:594][ 34]LogEditorTransaction: Undo Move Actors
+[2018.10.22-12.26.33:412][435]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.26.35:029][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.26.35:255][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.26.35:541][587]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap82A4C4C34A121EC53E631D9EA1911492.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.26.35:950][587]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData4971D1644312C47A5DAA79B1FC792423.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.26.38:231][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_shroom)
+[2018.10.22-12.26.41:458][163]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.26.41:624][163]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.26.41:934][163]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap7BA55A364B9D1741B1C6618F96098FF7.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.26.42:337][163]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltDataBED0D38C4465089D24C6ADA04B5FB684.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.26.44:701][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Items_shroom)
+[2018.10.22-12.26.48:868][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.27.13:918][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.27.17:114][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.27.17:563][470]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap1DA285A545BA1300E8EB4DB9BBF96F31.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.27.17:983][470]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltDataF241D5F34803EED16C31CFB1AC412CBC.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.27.23:963][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.27.28:239][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.27.36:372][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.27.36:430][272]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-12.27.36:461][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.27.36:462][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.27.36:688][272]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 4:27:36 AM)
+[2018.10.22-12.27.36:689][272]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.22-12.27.36:728][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039311s)
+[2018.10.22-12.27.36:729][272]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.27.36:729][272]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2018.10.22-12.27.36:729][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040907s)
+[2018.10.22-12.27.36:864][272]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.27.36:878][272]LogInit: FAudioDevice initialized.
+[2018.10.22-12.27.36:920][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.22-12.27.36:939][272]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-08.27.36
+[2018.10.22-12.27.36:958][272]LogWorld: Bringing up level for play took: 0.025373
+[2018.10.22-12.27.37:017][272]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.10.22-12.27.37:018][272]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.429
+[2018.10.22-12.27.37:019][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.27.53:650][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.27.53:650][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.27.53:684][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-12.27.53:684][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.27.53:810][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.27.53:841][229]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.22-12.27.55:219][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.27.55:279][375]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-12.27.55:309][375]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.27.55:309][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.27.55:309][375]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 4:27:55 AM)
+[2018.10.22-12.27.55:309][375]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.22-12.27.55:337][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027472s)
+[2018.10.22-12.27.55:338][375]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.27.55:338][375]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2018.10.22-12.27.55:338][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028677s)
+[2018.10.22-12.27.55:444][375]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.27.55:454][375]LogInit: FAudioDevice initialized.
+[2018.10.22-12.27.55:484][375]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.22-12.27.55:490][375]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-08.27.55
+[2018.10.22-12.27.55:490][375]LogWorld: Bringing up level for play took: 0.005173
+[2018.10.22-12.27.55:503][375]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.055
+[2018.10.22-12.27.55:504][375]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.28.06:606][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2587.097 Y=-1381.133 Z=322.288] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.06:773][699]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2588.701 Y=-1381.425 Z=325.001] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.06:956][720]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2569.650 Y=-1394.330 Z=333.070] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.07:114][739]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2570.313 Y=-1394.805 Z=334.060] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.07:298][761]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2569.673 Y=-1394.323 Z=333.062] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.08:139][860]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2558.477 Y=-1403.936 Z=338.401] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.08:325][882]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2558.402 Y=-1401.389 Z=339.632] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.08:460][898]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2560.318 Y=-1402.170 Z=341.412] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.08:620][917]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2570.307 Y=-1407.516 Z=339.752] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.36:627][246]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1481.285 Y=-337.420 Z=505.439] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.36:786][265]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1468.919 Y=-317.233 Z=509.907] for [FirstPersonProjectile_C]
+[2018.10.22-12.28.41:895][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.28.41:895][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.28.41:929][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-12.28.41:929][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.28.42:038][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-12.28.42:054][861]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.22-12.28.44:952][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.10.22-12.28.47:579][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.28.54:924][672]LogMaterial: Warning: Material /Game/FirstPersonBP/Models/lambert4.lambert4 needed to have new flag set bUsedWithStaticLighting !
+[2018.10.22-12.28.54:930][672]LogMaterial: Display: Missing cached shader map for material lambert4, compiling. 
+[2018.10.22-12.28.55:270][672]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.22-12.28.55:271][672]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.22-12.28.55:271][672]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.22-12.28.55:271][672]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.22-12.28.58:290][930]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-12.29.02:724][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platforms_pCone4)
+[2018.10.22-12.29.03:391][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2018.10.22-12.29.05:771][510]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.29.13:907][889]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.10.22-12.29.15:837][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.29.15:995][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.29.16:315][ 67]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMapC536CEFE420A3402C9F693BA4E0AF525.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.29.16:774][ 67]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/FirstPersonExampleMap_BuiltData7EB39FED4003371822CE1E994DF7AA00.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.29.19:742][224]SourceControl: fatal: Q:/K/UE_4.20/Engine/Content: 'Q:/K/UE_4.20/Engine/Content' is outside repository
+[2018.10.22-12.29.23:947][224]LogSlate: Window 'Save Content' being destroyed
+[2018.10.22-12.29.24:199][224]LogSavePackage: Moving 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Saved/Items_tree1E2F20DB746D55809A7F58C9C047897D5.tmp' to 'C:/Users/karrlem_lewis/Documents/GitHub/TheWitchesBrew/TheWitchsBrew/Content/FirstPersonBP/Models/Items_tree1.uasset'
+[2018.10.22-12.29.35:685][224]LogSlate: Window 'Submit Files' being destroyed
+[2018.10.22-12.29.37:763][224]LogSourceControl: commit successful: [master 2482051] Fixed texture
+[2018.10.22-12.29.38:151][224]SourceControl: [master 2482051] Fixed texture
+[2018.10.22-12.29.38:151][224]SourceControl:  3 files changed, 3 insertions(+), 1 deletion(-)
+[2018.10.22-12.29.38:151][224]SourceControl:  rewrite TheWitchsBrew/Content/FirstPersonBP/Models/Items_tree1.uasset (76%)
+[2018.10.22-12.29.38:159][224]SourceControl: Commited [master 2482051] Fixed texture.
